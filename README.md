@@ -1,4 +1,4 @@
-# Twitter-Bot
+# Tweet-Bot 🐦
 
 Welcome to my GitHub project, where I've integrated the Node.js application with the Twitter API via their developer platform. This project primarily focuses on enabling users to create a tweet with text and photo using a specialized function defined within the application.
 
@@ -12,7 +12,7 @@ Authentication via Twitter's developer platform
 Create tweets with text
 Add photos to tweets
 
-## Requirements
+## Requirements 
 
 Node.js v14.x or higher
 NPM v6.x or higher
@@ -28,16 +28,12 @@ Navigate into the project directory:
 
 `cd project`
 
-Install the dependencies:
+Install the dependencies inside "Client" + "Server":
 
 `npm install`
 
 Create a .env file in the project root directory. Use the .env.sample file as a reference.
 Add your Twitter developer account's API keys.
-
-## Run the application:
-
-`node index.js`
 
 ## Usage
 
@@ -45,9 +41,15 @@ Once you have set up the application following the steps above, you can use the 
 
 `tweet("Your tweet text", "Path to your image file");`
 
+## Run the application:
+
+1. Run the following inside the "Server" `node server.js`
+2. Run the following inside the "Client" `npm start`
+
 ## Acknowledgements
 
-Twitter Developer Platform
-Node.js
-Feel free to clone, modify, and use this project as you wish.
-Feedback and improvements are always welcome. If you find any bugs or have feature requests, please create an issue detailing your findings.
+- Feel free to clone, modify, and use this project as you wish.
+  Feedback and improvements are always welcome. If you find any bugs or have feature requests, please create an issue detailing your findings.
+- Twitter Developer Platform
+- Node.js
+- React
