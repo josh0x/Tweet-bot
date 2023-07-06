@@ -16,7 +16,7 @@ Add photos to tweets
 
 Node.js v14.x or higher
 NPM v6.x or higher
-A valid Twitter Developer account and a created application with access to the API keys.
+A valid Twitter Developer account and a created application with access to the API keys
 
 ## Installation & Setup
 
